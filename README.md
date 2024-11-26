@@ -8,3 +8,5 @@ Contributors
 2. Tafhim Rahman
 3. Tanbir Hossain
 4. Samiya
+   <br><br>
+Note: This is a Non-responsive website, We will update it further.
