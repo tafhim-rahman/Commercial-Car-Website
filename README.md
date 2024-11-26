@@ -1,6 +1,6 @@
 # Commercial-Car-Website
 
-This project from...<br>
+This the project of...<br>
 Lakshmipur Polytechnic Institute<br>
 Department of Computer Science <br><br>
 Contributors
