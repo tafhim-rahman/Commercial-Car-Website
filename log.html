@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <video autoplay loop muted plays-inline class="background-clip">
+    <source src="video.mp4" type="video/mp4">
+    </video>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+
+
+    <style>
+    body {
+
+
+        background-color: black;
+        /* video */
+
+        video {
+            opacity: 0.4; /* Adjust opacity value (0 to 1) */
+        }
+    
+    .background-clip{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: auto;
+        height: auto;
+    }
+    
+    @media (min-aspect-ratio: 16/9) {
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+    
+    }
+
+
+
+    
+    }
+     /* title */
+    #registration{
+        color: rgb(97, 126, 114);
+    }
+    
+    
+    /* login form */
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+        width: 500px;
+        /* border: 1px solid black; */
+        align-items: center;
+        margin: auto;
+        margin-top: 170px;
+        background-color: rgba(22, 29, 23, 0.589);
+        box-shadow: inset -5px -5px rgba(0, 0, 0, 0.7);
+        border-radius: 35px;
+    }
+    .form h1{
+        color: lime;
+        font-size: 2rem;
+        /* border-bottom: 4px solid rgba(255, 255, 255, 0.5); */
+        margin-top: 40px;
+        margin-bottom: 10px;
+        border-left: 0%;
+    }
+    
+    /*Boxes*/
+    
+    .box{
+        padding: 12px;
+        margin-top: 25px;
+        height: 70-px;
+        width: 65%;
+        border: none;
+        outline: none;
+        border-radius: 23px;
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: inset 3px 3px rgb(0, 0, 0);
+        color: white;
+        font-size: 1rem;
+    }
+    
+
+    .btn{
+        padding: 15px 15px;
+        margin-top: 20px;
+        width: 80px;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: inset 3px 3px rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        border: none;
+        color: white;
+        outline: none;
+        color: rgb(137, 146, 137);
+        text-shadow: 2px;
+        transition: ;
+    }
+    .btn:hover{
+        cursor: pointer;
+        color: aliceblue;
+    }
+    
+    .btn:hover{
+        cursor: pointer;
+        background-color: rgba(70, 161, 85, 0.1);
+        color: rgb(179, 216, 196);
+    }
+    
+    .link1{
+  text-decoration: none;
+  color: inherit;
+    }
+
+</style>
+
+
+    
+
+
+</head>
+
+   <!-- Video background -->
+   <video autoplay loop muted playsinline class="background-clip">
+    <source src="car2.mp4" type="video/mp4">
+</video>
+
+
+<body>
+    <form action="" class="form">
+        <h1 id="registration">REGISTRATION</h1>
+        <input type="firstname" name="name" class="box" placeholder="First Name">
+        <input type="lastname" name="name" class="box" placeholder="Last Name">
+        <input type="birth" name="birth" class="box" placeholder="Date Of Birth">
+        <input type="password" name="email" class="box" placeholder="Type Password">
+        <input type="password" name="password" class="box" placeholder="Confirm Password">
+        <!-- <input type="submit" value="SIGN IN" id="submit"> -->
+        <button class="btn"><a href="end.html" class="link1" target="_blank" rel="noopener noreferrer">SUBMIT</a></button> 
+    </form>
+
+</body>
+</html>
