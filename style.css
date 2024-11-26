@@ -29,14 +29,14 @@ html {
 
 @font-face {
   font-family: 'qualy'; 
-  src: url('qualy.ttf') format('truetype'); 
+  src: url('assets/qualy.ttf') format('truetype'); 
   font-style: normal;
 }
 
 
 @font-face {
   font-family: 'galderglynn_titling_rg'; 
-  src: url('galderglynn_titling_rg.otf') format('truetype'); 
+  src: url('assets/galderglynn_titling_rg.otf') format('truetype'); 
   font-style: normal;
 }
 
@@ -44,7 +44,7 @@ html {
 
 @font-face {
   font-family: 'galderglynn_titling_el.otf'; 
-  src: url('galderglynn_titling_el.otf') format('truetype'); 
+  src: url('assets/galderglynn_titling_el.otf') format('truetype'); 
   font-style: normal;
 }
 
