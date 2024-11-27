@@ -7,6 +7,6 @@ Contributors
 1. Hridoy Devnath
 2. Tafhim Rahman
 3. Tanbir Hossain
-4. Samiya
+4. Abdur Rahman
    <br><br>
 Note: This is a Non-responsive website, We will update it further.
